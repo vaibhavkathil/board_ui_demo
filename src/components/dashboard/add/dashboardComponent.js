@@ -5,6 +5,10 @@ var DashbaordConfig = require('./dashboardConfigComponent');
 var Pod = require('./podComponent');
 
 var DashboardComponent = React.createClass({
+
+	
+	
+
 	/**
 	 * This should provide following features
 	 * 1. Dashbaord initial configuration component, should be able to suggest it's state pure or not
@@ -17,7 +21,7 @@ var DashboardComponent = React.createClass({
 		return (
 			<div>
 			<DashbaordConfig/>
-			<Pod/>
+			<Pod userId = 'dummy'/>
 			</div>
 		); 
 	}
